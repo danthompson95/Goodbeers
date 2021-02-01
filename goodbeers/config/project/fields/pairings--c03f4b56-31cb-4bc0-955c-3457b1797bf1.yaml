@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 3375641d-1a87-4ecd-8d12-fcd88c142be1
+handle: pairings
+instructions: 'Write what food this pairs best with'
+name: Pairings
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

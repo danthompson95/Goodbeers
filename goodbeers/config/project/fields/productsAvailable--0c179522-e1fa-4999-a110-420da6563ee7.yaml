@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 43acc95b-a439-41bf-b60b-aee8c47f4984
+handle: productsAvailable
+instructions: 'Add as many products as needed'
+name: 'Products Available'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_productsavailable}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

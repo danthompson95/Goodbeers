@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation" aria-label="Main">
+	{% set firstSegment = craft.app.request.getSegment(1) %}
+	<a class="navbar-brand" href="{{ siteUrl }}">Goodbeers Inc.</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+
+			<li class="nav-item {{ firstSegment == 'about' ? 'active' }}">
+				<a class="nav-link" href="{{ url('about') }}">About Us</a>
+			</li>
+			<li class="nav-item {{ firstSegment == 'our-products' ? 'active' }}">
+				<a class="nav-link" href="{{ url('our-products') }}">Our Products</a>
+			</li>
+			<li class="nav-item {{ firstSegment == 'stockists' ? 'active' }}">
+				<a class="nav-link" href="{{ url('stockists') }}">Stockists</a>
+			</li>
+		</ul>
+	</div>
+</nav>

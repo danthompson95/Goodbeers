@@ -1,0 +1,18 @@
+fieldLayouts:
+  78d5447b-3b21-4ea7-807b-f7a542ea0593:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f65582b7-2cc1-42d5-a2ca-cc6dd8ae0b2b
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Site Description'
+        sortOrder: 1
+handle: siteInformation
+name: 'Site Information'

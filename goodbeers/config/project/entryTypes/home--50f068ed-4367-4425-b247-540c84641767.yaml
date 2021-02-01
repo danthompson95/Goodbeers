@@ -1,0 +1,47 @@
+fieldLayouts:
+  b99f4875-c1d9-4b2c-b820-b8142c0b124e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: ''
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: a70316e2-2131-4549-9e71-8aea7b7651f5
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: home
+hasTitleField: false
+name: Home
+section: 9a4b7068-9a3e-4246-8941-2f4504575bdb
+sortOrder: 1
+titleFormat: 'Goodbeers Inc.'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

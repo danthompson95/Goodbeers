@@ -1,0 +1,29 @@
+{% block content %}
+	<div id="map" style="height: 300px"></div>
+	<script>
+		let map,
+marker;
+
+function initMap() {
+
+map = new google.maps.Map(document.getElementById("map"), {
+center: {
+lat: {{ entry.latitude }},
+lng: {{ entry.longitude }}
+},
+zoom: 10
+});
+
+
+marker = new google.maps.Marker({
+position: {
+lat: {{ entry.latitude }},
+lng: {{ entry.longitude }}
+},
+title: "Hello World!"
+});
+console.log(marker)
+marker.setMap(map);
+}
+	</script>
+{% endblock %}

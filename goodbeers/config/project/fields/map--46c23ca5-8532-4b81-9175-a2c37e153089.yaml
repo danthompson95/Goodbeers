@@ -1,0 +1,11 @@
+contentColumnType: string
+fieldGroup: 43acc95b-a439-41bf-b60b-aee8c47f4984
+handle: map
+instructions: ''
+name: Map
+searchable: false
+settings:
+  someAttribute: 'Some Default'
+translationKeyFormat: null
+translationMethod: none
+type: billythekid\ezmap\fields\EZMapField

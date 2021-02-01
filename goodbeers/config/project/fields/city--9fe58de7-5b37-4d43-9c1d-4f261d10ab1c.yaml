@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 6cd58cb5-9da6-4374-9116-a422fa0734ed
+handle: city
+instructions: ''
+name: City
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

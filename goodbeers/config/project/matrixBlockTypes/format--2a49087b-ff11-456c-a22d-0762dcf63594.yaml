@@ -1,0 +1,40 @@
+field: 0dbaf42b-9fe7-4fdc-8523-7cd2581751ee
+fieldLayouts:
+  9c136dde-394a-40a1-a2c1-15c9f9be6b75:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5315e33c-e244-4dc7-9dc0-fc70356053f5
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5315e33c-e244-4dc7-9dc0-fc70356053f5:
+    contentColumnType: text
+    fieldGroup: null
+    handle: format
+    instructions: 'Each size for the drink'
+    name: Format
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: format
+name: Format
+sortOrder: 1

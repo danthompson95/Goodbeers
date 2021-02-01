@@ -1,0 +1,18 @@
+fieldLayouts:
+  3d8e3f91-a830-4a6f-adbe-f31b83d1ebfa:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: c514301a-7065-43a5-be06-c3c3224f2b2e
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: content
+        sortOrder: 1
+handle: googleMapsApi
+name: 'Google Maps API'

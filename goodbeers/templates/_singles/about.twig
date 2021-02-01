@@ -1,0 +1,15 @@
+{% extends "_layout" %}
+
+{% block content %}
+	<div class="row mt-4">
+		<div class="col col-lg-6">
+			<h1>{{ entry.title }}</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col col-lg-6">
+			{% include "_includes/main-content" with { blocks: entry.postContent.all() } only %}
+		</div>
+	</div>
+{% endblock %}

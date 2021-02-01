@@ -1,0 +1,36 @@
+dateModified: 1612166827
+email:
+  fromEmail: dthomp5on@live.co.uk
+  fromName: Goodbeers
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: ''
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Goodbeers'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: dthomp5on@live.co.uk
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Goodbeers
+  schemaVersion: 3.6.1
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

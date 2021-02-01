@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: ourProducts
+name: 'Our Products'
+propagationMethod: all
+siteSettings:
+  2a29bfd3-16d4-4040-9d07-9781433d328a:
+    enabledByDefault: true
+    hasUrls: true
+    template: our-products/_entry
+    uriFormat: 'our-products/{slug}'
+type: channel

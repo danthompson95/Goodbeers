@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 3375641d-1a87-4ecd-8d12-fcd88c142be1
+handle: formats
+instructions: ''
+name: Formats
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_formats}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,45 @@
+fieldLayouts:
+  f03fc969-402d-4613-85a5-17305a96e29a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: cc608244-58e0-4563-987f-3aeeb45dbbc8
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 71d77851-5ea9-472e-a6da-b1d0ccece375
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9fe58de7-5b37-4d43-9c1d-4f261d10ab1c
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9df87b60-6dc5-4b41-9392-7372a48688af
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: companyDetails
+name: 'Company Details'

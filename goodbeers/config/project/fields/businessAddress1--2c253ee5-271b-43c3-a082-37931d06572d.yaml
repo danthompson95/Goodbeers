@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 43acc95b-a439-41bf-b60b-aee8c47f4984
+handle: businessAddress1
+instructions: 'Address line 1 of the business'
+name: 'Business Address 1'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

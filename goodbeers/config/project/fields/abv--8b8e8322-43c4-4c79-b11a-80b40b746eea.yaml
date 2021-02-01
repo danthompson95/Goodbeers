@@ -1,0 +1,19 @@
+contentColumnType: 'decimal(3,1)'
+fieldGroup: 3375641d-1a87-4ecd-8d12-fcd88c142be1
+handle: abv
+instructions: 'Input the ABV number'
+name: ABV
+searchable: false
+settings:
+  decimals: '1'
+  defaultValue: '0'
+  max: '50'
+  min: '0'
+  prefix: ''
+  previewCurrency: ''
+  previewFormat: decimal
+  size: null
+  suffix: '%'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

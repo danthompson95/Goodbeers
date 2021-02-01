@@ -1,0 +1,27 @@
+{% extends "_layout" %}
+
+{% block content %}
+	<div class="row my-5">
+		<div class="col col-lg-8">
+			<div class="card mb-3">
+				<h3 class="card-header">{{entry.title}}</h3>
+			</div>
+			<div class="col mt-2">
+				<p>{{entry.notes}}
+				</p>
+				<h5>Pair with:</h5>
+				<p>{{entry.pairings}}</p>
+			</div>
+		</div>
+		<div class="col col-lg-4">
+			<div class="card mb-3">
+				<h3 class="card-header">ABV:
+					{{ entry.abv }}%</h3>
+			</div>
+			<div class="col mt-2">
+				<h5>Sizes Available:</h5>
+				{% include "_includes/post-blocks" with { blocks: entry.formats.all() } only %}
+			</div>
+		</div>
+	</div>
+{% endblock %}

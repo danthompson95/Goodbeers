@@ -1,0 +1,40 @@
+field: 0c179522-e1fa-4999-a110-420da6563ee7
+fieldLayouts:
+  b3157efd-d21a-408c-badd-1c69c7054053:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 1548d20b-45e4-42e3-a619-802ea78e1e70
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  1548d20b-45e4-42e3-a619-802ea78e1e70:
+    contentColumnType: text
+    fieldGroup: null
+    handle: productName
+    instructions: 'Write the product name that is available at this stockist'
+    name: 'Product Name'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: item
+name: Item
+sortOrder: 1

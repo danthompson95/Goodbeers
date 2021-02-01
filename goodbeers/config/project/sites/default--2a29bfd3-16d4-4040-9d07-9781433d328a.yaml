@@ -1,0 +1,9 @@
+baseUrl: 'http://localhost/goodbeers/web/'
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: Goodbeers
+primary: true
+siteGroup: a5f30d1e-e5f5-4377-98d7-b6de8a235e42
+sortOrder: 1

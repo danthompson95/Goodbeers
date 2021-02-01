@@ -1,0 +1,52 @@
+{% extends "_layout-maps" %}
+
+{% block content %}
+	<div class="container my-5">
+		<div class="row">
+			<div class="col col-lg-8">
+				<h3>{{entry.title}}</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-lg-8">
+				<h5>Our Location</h5>
+			</div>
+		</div>
+		{% if entry.businessAddress1 %}
+			<div class="row">
+				<div class="col col-lg-8">
+					<p>{{entry.businessAddress1}}</p>
+				</div>
+			</div>
+		{% endif %}
+		{% if entry.businessAddress2 %}
+			<div class="row">
+				<div class="col col-lg-8">
+					<p>{{entry.businessAddress2}}</p>
+				</div>
+			</div>
+		{% endif %}
+		{% if entry.businessAddress3 %}
+			<div class="row">
+				<div class="col col-lg-8">
+					<p>{{entry.businessAddress3}}</p>
+				</div>
+			</div>
+		{% endif %}
+		{% if entry.businessAddress4 %}
+			<div class="row">
+				<div class="col col-lg-8">
+					<p>{{entry.businessAddress4}}</p>
+				</div>
+			</div>
+		{% endif %}
+		{% if entry.businessPostcode %}
+			<div class="row">
+				<div class="col col-lg-8">
+					<p>{{entry.businessPostcode}}</p>
+				</div>
+			</div>
+		{% endif %}
+		{% include "_includes/map" with {entry: entry } only %}
+	</div>
+{% endblock %}
